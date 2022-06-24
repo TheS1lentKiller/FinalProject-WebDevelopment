@@ -1,0 +1,38 @@
+#geral {
+    margin: 0 auto;
+    width: 50%;
+}
+#elements1{
+    height: 150px;
+    width: 100px;
+    background-color: white;
+    text-align:center;
+    border: 1px solid;
+    border-color:black;
+    float: left; 
+}
+
+#elements2{
+    height: 150px;
+    width: 100px;
+    background-color: white;
+    text-align:center;
+    border: 1px solid;
+    border-color:black;
+    float: left;
+}
+
+#elements3{
+    height: 150px;
+    width: 100px;
+    background-color: white;
+    text-align:center;
+    border: 1px solid;
+    border-color:black;
+    float: left;
+}
+
+img{
+    width: 15px;
+    margin-right: 5px;
+}
