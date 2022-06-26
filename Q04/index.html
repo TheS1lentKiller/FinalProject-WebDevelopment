@@ -8,20 +8,92 @@
     </head>
     <body>
        <div id="general">
-            <h1>
-                Inscreva-se
-            </h1>
-            <h3>É de graça e sempre vai ser.</h3>
-            <div id="names">
-                <div id="nomeSobrenome">
-                    <input id="nome" type="text" placeholder="Nome">
-                    
-                    <input id="sobrenome" type="text" placeholder="Sobrenome">
+            <form id="form">
+                <p id="p1">Inscreva-se</p>
+                <p id="p2">É de graça e sempre vai ser.</p>
+                <input type="text" placeholder="Nome" id="nome">
+                <input type="text" placeholder="Sobrenome" id="sobrenome">
+                <input type="text" placeholder="Número de celular ou email" id="email1"><br>
+                <input type="text" placeholder="Repita o número de celular ou email" id="email2"><br>
+                <input type="text" placeholder="Nova senha" id="senha">
+                <div id="data">
+                    Data de nascimento<br>
+                    <select id="dia">
+                        <option>Dia</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select name="" id="mes">
+                        <option>Mês</option>
+                        <option>Janeiro</option>
+                        <option>Fevereiro</option>
+                        <option>Março</option>
+                        <option>Abril</option>
+                        <option>Maio</option>
+                        <option>Junho</option>
+                        <option>Julho</option>
+                        <option>Agosto</option>
+                        <option>Setembro</option>
+                        <option>Outubro</option>
+                        <option>Novembro</option>
+                        <option>Dezembro</option>
+                    </select>
+                    <select name="" id="ano">
+                        <option id="anoPri">Ano</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                    </select>
+                    <a href="index2.html" id="hyperlink">Por que tenho que fornecer minha data de nascimento?</a>
                 </div>
-                <input  id="cellphone" type="text" placeholder="Número de celular ou email"><br><br>                 
-                <input id="cellphone2" type="text" placeholder="Insira novamente o número de celular ou email"><br><br>
-                <input id="pass" type="password" placeholder="Nova senha">
-            </div>
+                <input type="radio" name="sexo" id="sexo">
+                <label>Masculino</label>
+                <input type="radio" name="sexo" id="sexo">
+                <label>Feminino</label>
+                <br><br>
+                <button type="button" id="btn" onclick="confirmar()">Inscrever-se</button>
+            </form>
        </div>
     </body>
 </html>

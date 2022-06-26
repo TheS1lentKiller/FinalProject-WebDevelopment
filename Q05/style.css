@@ -1,0 +1,16 @@
+#state1:link{
+    text-decoration: underline;
+}
+
+#stat2:visited{
+    text-decoration: overline;
+}
+
+#state3:hover{
+    text-decoration: underline overline;
+    color: red;
+}
+
+#state4:active{
+    text-decoration: line-through;
+}

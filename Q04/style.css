@@ -10,51 +10,47 @@ body{
 
 #general{
     width: 500px;
-    height: 500px;
+    height: 400px;
     background: #fff;
 }
 
-#nomeSobrenome{
-    height: 35px;
-    width: 440px;
+#p1{
+    font-size: xx-large;
+    margin-bottom: -20px;
 }
 
-#nome{
-    height: 20px;
-    width: 100px;
-    background-color: white;
-    text-align:center;
-    border: 1px solid;
-    border-color:black;
-    float: left;
-    margin-left: 120px; 
+#p2{
+    font-size: medium;
 }
 
-#sobrenome{
-    height: 20px;
-    width: 100px;
-    background-color: white;
-    text-align:center;
-    border: 1px solid;
-    border-color:black;
-    float: left; 
+#hyperlink{
+    font-size: x-small;
 }
 
-#cellphone{
-    height: 20px;
-    width: 200px;
-    margin-left: 43px; 
-
+#form{
+    margin-left: 50px;
 }
 
-#cellphone2{
-    height: 20px;
-    width: 300px;
-    margin-left: 50px; 
+#email1{
+    margin-top: 10px;
+    width: 337px;
 }
 
-#pass{
-    height: 20px;
-    width: 300px;
-    margin-left: 50px; 
+#email2{
+    margin-top: 10px;
+    width: 337px;
+}
+
+#senha{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 337px;
+}
+
+#btn{
+    background-color: green;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: large;
 }
