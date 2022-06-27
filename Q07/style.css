@@ -84,6 +84,11 @@ input{
     margin-top: 15px;
 }
 
+input:focus{
+    
+    background-color: red;
+}
+
 #btn{
     background-color: red;
     margin-left: 100px;
