@@ -1,16 +1,58 @@
+#state1{
+    border-width: 0px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+#state2{
+    border-width: 0px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin-right: 10px;
+}
+
+#state3{
+    border-width: 0px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin-right: 10px;
+}
+
+#state4{
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin-right: 10px;
+}
+
 #state1:link{
-    text-decoration: underline;
+    color: black;
+    text-decoration: none;
 }
 
-#stat2:visited{
-    text-decoration: overline;
-}
-
-#state3:hover{
-    text-decoration: underline overline;
+#state2:visited{
     color: red;
 }
 
+#state3:hover{
+    color: green;
+}
+
 #state4:active{
-    text-decoration: line-through;
+    color: goldenrod;
+}
+
+.geral{
+    display: table;
+    margin-top: 50px;
+    font-size: xx-large;
 }
