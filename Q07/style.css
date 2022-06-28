@@ -94,4 +94,5 @@ input:focus{
     margin-left: 100px;
     width: 100px;
     color: white;
+    border-color: white;
 }
