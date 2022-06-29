@@ -9,7 +9,8 @@
     text-align:center;
     border: 1px solid;
     border-color:black;
-    float: left; 
+    float: left;
+    margin-right:10px;
 }
 
 #elements2{
@@ -20,6 +21,7 @@
     border: 1px solid;
     border-color:black;
     float: left;
+    margin-right:10px;
 }
 
 #elements3{

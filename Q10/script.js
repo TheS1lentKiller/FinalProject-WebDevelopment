@@ -9,7 +9,10 @@ function inverter(){
     
     if (nome1.value != '' && nome2.value != '' && nome3.value != '' && 
     nome4.value != '' && nome5.value != ''){
+        
         nomes.push(nome1,nome2,nome3,nome4,nome5);
+        nomes.reverse();
+        console.log(nomes)
         
         document.getElementById("nome1").value = nome5;
         document.getElementById("nome2").value = nome4;

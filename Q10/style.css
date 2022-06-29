@@ -1,0 +1,15 @@
+.nomes{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: rebeccapurple;
+}
+
+.texts{
+    color: rebeccapurple;
+    
+}
+
+.nomes:hover{
+    border-color: rebeccapurple;
+}

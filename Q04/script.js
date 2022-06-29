@@ -7,16 +7,20 @@ function confirmar(){
     var dia = document.getElementById("dia");
     var mes = document.getElementById("mes");
     var ano = document.getElementById("ano");
-    var sexo = document.getElementById("sexo");
+    var sexoM = document.getElementById("sexoM");
+    var sexoF = document.getElementById("sexoF");
 
     var anoT = document.getElementById("anoPri");
     
     if (nome.value != '' && sobrenome.value != '' && email1 != '' && email2 != '' && senha != '' &&
-    dia != 'Dia' && mes.value != anoT && ano.value != anoT  && sexo.checked){
-        alert("Dados registrados com sucesso!");
-    }else if (email1.value != email2.value){
-        alert("O email/número de telefone informado não confere.")
+    dia != 'Dia' && mes.value != anoT && ano.value != anoT){
+        if (sexoM.checked || sexoF.checked){
+            if(email1.value != email2.value);
+                alert("Dados registrados com sucesso!");
+        }else{
+            alert("Preencha todos os campos para prosseguir.");
+        }
     }else{
-        alert("Preencha todos os campos para prosseguir.")
+        alert("Preencha todos os campos para prosseguir.");
     }
 }
